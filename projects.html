@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang=en>
+    <head>
+        <title>Toggle Menu</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <link href="./choc/main.css" rel="stylesheet">
+        <link href="./choc/togglemenu.css" rel="stylesheet">
+        <link href="./choc/homepage.css" rel="stylesheet">
+        <link href="./choc/about.css" rel="stylesheet">
+        <link href="./choc/projects_tabs.css" rel="stylesheet">
+    </head>
+    
+    
+    
+    
+    
+    <body>
+        <div class="page">
+            <a href="#menu" id="toggle" style="margin-right:5rem;"><span></span></a>
+
+        <div id="menu" style="margin-right:5rem;">
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                  <li><a href="./projects.html">Projects</a></li>
+                  <li><a href="./hireme.html">Hire Me</a></li>
+          </ul>
+        </div>
+        
+        
+        <!--            Header container-->
+            <div class="header-container">
+                <header class="header header-sticky">
+                    <div class="logo">
+                        <div class="logo_portrait" title="Min Marn Oo | Software Developer">
+                            <a href="index.html">
+                                <img class="img-circle logo_portrait_img" src="gallery/me.jpg">
+                            </a>
+                        </div>
+                        <div class="logo_text">
+                            <h1 class="logo_title">Min Marn Oo</h1>
+                            <h3 class="logo_subtitle">Software Developer</h3>
+                        </div>
+                    </div>
+                </header>
+            </div>
+            <!--            Resume begins here-->
+
+            
+        
+        
+<!--            Tabs begin here-->
+            <div class="container container_tabs">
+                <ul class="tab">
+                  <li><a href="javascript:void(0)" class="tablinks active" onclick="openCity(event, 'London')">Edfund</a></li>
+                  <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Paris')">SP Air Hockey</a></li>
+<!--                  <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Tokyo')">Hewlett Packard</a></li>-->
+                </ul>
+
+                <div id="London" class="tabcontent" style="display:block;">
+                  <p>Edfund is a <i>work in progress </i> project, a website intended to help college students with their tuition fees. In this age, education has become more important than ever. However, unfortunately, it has also become increasingly difficult for people from lower income families to gain access.</p>
+                    <p>
+                       <i>Disclaimer : </i>This is an early concept. What is being shown and discussed can be susceptible to change in the final product. <br><br>
+                       
+                    </p>
+                    <a href="http://localhost/edfund/"><img src="gallery/edfund.PNG" alt="Edfund" width="70%"></a> <br> <br>
+                    <p>
+                        Edfund will allow students to setup their profiles in which they can describe in detail about their lives, why they are in this situation. <br>
+                       Donors can browse through the recipients and make donations with ease. <br>
+                       To prevent fraud, users will have to prove their identity with government documents such birth certificates, educational backgrounds and accomodation records.
+                    </p>
+                </div>
+
+                <div id="Paris" class="tabcontent" >
+                  <p>I'm sure you've played these things before somewhere in arcade centers.</p>
+                   <img src="gallery/airhockey_traditional.jpg" width="40%" id="tr_airhockey" alt="Traditional Air Hockey"> <br> <br>
+                    <p>Amplify the chaos, fun and action by ten folds. Then you get SP Air Hockey station!</p>
+                    <img id="sp_airhockey" src="gallery/airhockey.jpg" width="60%"> <br><br>
+                    <p>
+                        SP Air Hockey was built from scratch by a team of ten polytechnic students. With the initial intention being designing a
+                        game station like in arcade game centers. <br>
+                        After several meetings and a few prototypes, we came up with the idea to modify the existing air hockey game. <br> 
+                    </p> <br>
+                    <p>
+                        Once the goal was set, we proceeded to divide the responsibilty to each team member with me becoming programmer for the team. <br>
+                        It was a year long project which means we were required to work on the project for the whole academic year in addition to the lectures.
+                    </p>
+                    <p>
+                        As a programmer, I worked with Programmable Logic Controllers to control the all the electrical and mechanical components that
+                        included in the station (such as solenoids, LED light strips, timers, fans, buttons and power supplies etc.)
+                        This was a fantastic opportunity for me to apply everything that I have learned in the first two years of college to practical use.
+                        We used Panasonic PLC together with FPWIN Pro 6 software from programming.
+                    </p>
+                    <p>
+                        We were awarded gold medal prize in the Engineering.
+                    </p>
+                </div>
+
+<!--
+                <div id="Tokyo" class="tabcontent">
+                  <p>Hewlett Packard was my very first job as a diploma holder.</p>
+                    <p>During my time there, I had quite a handful of opportunities to be involved projects that will not only shed me new light about the infrastructure of industrial Engineering but also made me realise the importance of working in large teams, maintaining effective communication throughout. </p>
+                    <img src="gallery/hp.jpg" width="40%" margin-left="20%">
+                </div>
+-->
+            </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </div>
+        
+        
+        
+        
+        <!-- Bootstrap core JavaScript ------------------------------------------------------>
+            <script src="./js/jquery.js"></script>
+            <script src="./js/script.js"></script>
+            <script src="./js/about.js"></script>
+            <script src="./js/projects_tabs.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+            
+    </body>
+</html>

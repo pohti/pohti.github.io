@@ -1,0 +1,211 @@
+
+/*Header logo*/
+.header-container {
+    padding: 0 2rem;
+    margin-bottom: 4rem;
+    margin-top: 0rem;
+    height: 11.5rem;
+    width: 45%;
+    position: absolute;
+    top: -25px;
+    left: 0px;
+}
+.header {
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    box-direction: normal;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-direction: row;
+    -webkit-box-pack: justify;
+    -moz-box-pack: justify;
+    box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    -ms-justify-content: space-between;
+    -o-justify-content: space-between;
+    justify-content: space-between;
+    -ms-flex-pack: justify;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    box-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    -o-align-items: center;
+    align-items: center;
+    -ms-flex-align: center;
+    padding: 2rem 3rem;
+}
+.logo {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    box-flex: 1;
+    -webkit-flex: 1 0 80%;
+    -moz-flex: 1 0 80%;
+    -ms-flex: 1 0 80%;
+    flex: 1 0 80%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: rows;
+    -moz-box-orient: rows;
+    box-orient: rows;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    box-direction: normal;
+    -webkit-flex-direction: rows;
+    -moz-flex-direction: rows;
+    flex-direction: rows;
+    -ms-flex-direction: rows;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    box-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    -o-align-items: center;
+    align-items: center;
+    -ms-flex-align: center;
+}
+.header-sticky .logo_portrait{
+    margin-right: 1.5rem;
+}
+.logo_text{
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    box-orient: vertical;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-direction: column;
+}
+.logo_portrait {
+    margin: 0 2rem 0 0;
+}
+.logo_portrait_img{
+    display: block;
+    margin: 0;
+    height: 7.5rem;
+}
+.logo_title{
+    font-size: 2rem;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 2rem;
+    margin: 0 0 .5rem;
+}
+.logo_subtitle{
+    font-size: 1.8rem;
+    color: #c9ced6;
+    line-height: 1.8rem;
+    margin: 0;
+}
+.logo_title, .logo_subtitle{
+    font-family: "DINPro", Helvetica Neue, Helvetica, Arial, sans-serif;
+    letter-spacing: .08rem;
+}
+
+/*Resume starts here*/
+
+
+
+#edu_container, #work_exp{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    background: rgba(0,0,0,0.3);
+    position: relative;
+    top: -80px;
+    z-index: -1;
+    margin: auto;
+}
+.row{
+    padding: 2rem;
+}
+#sptext{
+    text-align: left;
+    margin-top: 3.5rem;
+    
+    padding: 2rem;
+}
+#sim_text{
+    text-align: right;
+    margin-top: 3.5rem;
+    padding: 2rem;
+}
+#spimg, #sim_img,#hp_img{
+    width: 40rem;
+    border-radius: 2px;
+    position: relative;
+}
+
+
+#skills{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 5rem;
+    margin-top: -3rem;
+    
+}
+#skill_container{
+    padding-top:5rem;
+}
+#skill_container a{
+    color: #e1e4ea;
+}
+.skill-panel{
+    text-align: center;
+    background: rgba(0,0,0,0);
+}
+.skill-panel_body{
+    display: none;
+    text-align: left;
+}
+
+#work_exp{
+    position:static;
+}
+#work_exp i{
+    font-size: 1.9rem;
+    color: #c9ced6;
+}
+#work_exp h2{
+    text-align: center;
+    padding: 3rem;
+}
+#hp_res{
+    padding: 2rem;
+    margin-left: 4px;
+}
+#hp_res li{
+    list-style-position: outside;
+    list-style: disc;
+    display: list-item;
+}

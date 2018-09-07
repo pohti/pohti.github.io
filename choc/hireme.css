@@ -1,0 +1,22 @@
+.column {
+    max-width: 80rem;
+    width: 80rem;
+    -webkit-box-direction: normal;
+    display: block;
+    margin: auto;
+}
+
+.column h1{
+    font-size: 5rem;
+    line-height: 7rem;
+    text-align: center;
+    padding-bottom: 6rem;
+    margin-bottom: 4rem;
+    position: relative;
+}
+.p_large{
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    margin-bottom: 2.4rem;
+    font-weight: 500;
+}

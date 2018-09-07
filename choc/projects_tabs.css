@@ -1,0 +1,57 @@
+/* Style the list */
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 4px 4px 0 0;
+    background-color: rgba(0,0,0,0.4);
+    
+}
+
+/* Float the list items side by side */
+ul.tab li {float: left;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+    font-family: "Grandesign", Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 2rem;
+    line-height: 3.25rem;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {
+    background-color: rgba(164, 157, 196,0.3);
+    transition: background 0.5s;
+}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {
+    transition: background 0.5s;
+    background-color: rgba(109, 91, 193,0.7);
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 3rem 3rem 3rem 3rem;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+}
+.tabcontent img{
+    margin-left: 16%;
+    border-radius:1px;
+}
+
+#tr_airhockey, #sp_airhockey{
+    margin-left: 2rem;
+}

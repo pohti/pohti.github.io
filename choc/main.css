@@ -1,0 +1,78 @@
+html { 
+  background: url('../gallery/bgimg.jpg') no-repeat center center fixed; 
+/*
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+*/
+  background-size: cover;
+}
+
+body{
+    font-family: "Grandesign", Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 2rem;
+    line-height: 3.25rem;
+    margin: 0rem;
+    background: rgba(0,0,0,0);
+    color: #e1e4ea;
+}
+* {
+/*    box-sizing: border-box !important;*/
+}
+.page{
+    transition: right, 0.25s;
+    height: 80rem;
+    width: 100%;
+    z-index: 0;
+    right: 0;
+    position: relative;
+}
+.centered-container{
+    height: 100%;
+    margin-top: -30rem;
+    -ms-flex-pack: distribute;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    box-align: center;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: distribute;
+    -moz-box-pack: distribute;
+    box-pack: distribute;
+    -webkit-justify-content: space-around;
+    -moz-justify-content: space-around;
+    -ms-justify-content: space-around;
+    -o-justify-content: space-around;
+    justify-content: space-around;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    -o-align-items: center;
+    align-items: center;
+    -ms-flex-align: center;
+}
+/*
+    
+*/
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    
+}
+hr {
+    display: block;
+    -webkit-margin-before: 0.5em;
+    -webkit-margin-after: 0.5em;
+    -webkit-margin-start: auto;
+    -webkit-margin-end: auto;
+    border-style: inset;
+    border-width: 1px;
+}
